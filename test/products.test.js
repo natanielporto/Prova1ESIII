@@ -110,7 +110,6 @@ test('deve ser possível listar todos os produtos', async () => {
         id: responseSave.body.id,
         ...products[0],
         lovers: 0,
-
       },
     ]),
   );
